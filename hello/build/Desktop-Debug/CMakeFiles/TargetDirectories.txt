@@ -1,0 +1,9 @@
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/hello.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/install.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/hello_autogen_timestamp_deps.dir
+/home/ubuntupi/qt-project/hello/build/Desktop-Debug/CMakeFiles/hello_autogen.dir
