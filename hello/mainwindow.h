@@ -3,8 +3,7 @@
 
 #include <QMainWindow>
 #include <QSerialPort>
-
-
+#include <QProcess>
 
 // namespace
 
@@ -76,11 +75,22 @@ private slots:
     void on_connectButton_clicked();
     void readData();
 
+    void on_monitorStartButton_clicked();
+
+    void on_monitorstopButton_clicked();
+
+    void on_ledBlinkButton_clicked();
+
+
 private:
     Ui::MainWindow *ui;
     QSerialPort *serial;
     QByteArray m_buffer; // 데이터를 임시로 담아둘 버퍼 추가
 
     void parseProtocol(const QByteArray &packet);
+
+    qint64 getSerialPortPID(QString portPath);
+    void applyStyles();
+
 };
 #endif // MAINWINDOW_H
